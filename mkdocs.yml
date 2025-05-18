@@ -1,3 +1,4 @@
+site_name: My Docs
 site_name: PyAutoHub              # 网站标题
 theme:
   name: material                  # 使用 Material 主题
