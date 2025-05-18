@@ -19,3 +19,12 @@ theme:
   - sitemap:
       changefreq: daily   # 可选：告诉搜索引擎页面更新频率
       priority: 0.5       # 可选：页面默认权重
+
+      plugins:
+  - search
+  - sitemap
+  - robots:
+      user_agents:
+        - '*' 
+      disallow: 
+        - /private/
