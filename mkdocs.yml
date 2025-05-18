@@ -10,6 +10,12 @@ nav:
   - 脚本列表: scripts.md           # 我们稍后新建 docs/scripts.md
 
 site_name: PyAutoHub
-site_url: https://docs.web3corgidog.xyz
+site_url: https://docs.web3corgidog.xyz    # ← 不要以“/”结尾
 theme:
   name: material
+
+  plugins:
+  - search
+  - sitemap:
+      changefreq: daily   # 可选：告诉搜索引擎页面更新频率
+      priority: 0.5       # 可选：页面默认权重
