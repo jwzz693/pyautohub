@@ -8,3 +8,8 @@ markdown_extensions:
 nav:
   - 首页: index.md                 # 首页指向 docs/index.md
   - 脚本列表: scripts.md           # 我们稍后新建 docs/scripts.md
+
+site_name: PyAutoHub
+site_url: https://docs.web3corgidog.xyz
+theme:
+  name: material
