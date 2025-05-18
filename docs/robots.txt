@@ -1,3 +1,11 @@
 User-agent: *
 Disallow:
+Sitemap: https://docs.web3corgidog.xyz/sitemap.xml 
+
+
+# docs/robots.txt
+
+User-agent: *
+Disallow:
+
 Sitemap: https://docs.web3corgidog.xyz/sitemap.xml
