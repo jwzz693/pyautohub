@@ -1,0 +1,9 @@
+site_name: PyAutoHub              # 网站标题
+theme:
+  name: material                  # 使用 Material 主题
+markdown_extensions:
+  - toc:
+      permalink: true             # 目录锚点
+nav:
+  - 首页: index.md                 # 首页指向 docs/index.md
+  - 脚本列表: scripts.md           # 我们稍后新建 docs/scripts.md
